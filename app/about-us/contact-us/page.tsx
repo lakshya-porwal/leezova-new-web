@@ -237,15 +237,12 @@ export default function ContactUs() {
                         fill="none"
                       />
                     </g>
-                    <circle cx="100" cy="100" r="40" fill="#4169E1" opacity="0.1" />
-                    <path
-                      d="M 100 80 L 100 100 L 120 100"
-                      stroke="#4169E1"
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      fill="none"
-                      transform="rotate(45 100 100)"
-                    />
+                    <g transform="translate(100, 100) scale(0.12) translate(-512, -512)">
+                      <path d="M321 317.25L155 122H321V317.25L155 903H248.163H321V535.52V317.25Z" fill="#4169E1"/>
+                      <path d="M335 122H471.765V697.077H800V834H509.484H335V122Z" fill="#4169E1"/>
+                      <path d="M484 122L540 122V684H484V122Z" fill="#4169E1"/>
+                      <path d="M814.51 698H869V903H335V848.333H814.51V698Z" fill="#4169E1"/>
+                    </g>
                   </svg>
                 </div>
               </div>
